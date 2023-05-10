@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.background{
+    background-color: rgba(89, 119, 151, 0.701);
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.inside-bg{
+    background-color: rgb(255, 237, 192);
+    width:max-content;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body{
+    padding-top: 10px;
+}
+
+.from-to{
+    display: flex;
+    gap:15px;
+    padding:15px 0px;
+}
+
+
+#button{
+    background-color: rgba(80, 157, 240, 0.721);
+    -webkit-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.59);
+    box-shadow: 4px 4px 5px -1px rgba(0,0,0,0.59);
+    padding:4px 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+}   
+
+
